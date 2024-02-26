@@ -18,6 +18,9 @@ const moodReducer = ( state = INITIAL_STATE, action )=>{
 }
 
 
-const store = Redux.createStore(moodReducer)
+const store = Redux.createStore(
+    moodReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
 
 
