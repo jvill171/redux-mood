@@ -1,14 +1,16 @@
 body{
     text-align: center;
+    background-color: #151515;
+    color: white;
 }
 
 button{
     background-color: white;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 button:hover{
     background-color: #DDD;
     cursor: pointer;
-    outline: 1px solid black;
+    outline: 1px solid #FFF;
 }
